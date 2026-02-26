@@ -6,6 +6,7 @@
     --black: #333333;
     --gray: #f5f5f5;
     --dark-gray: #666666;
+    --whatsapp-green: #25D366;
 }
 
 * {
@@ -461,6 +462,8 @@ nav {
     text-align: center;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-card:hover {
@@ -499,6 +502,15 @@ nav {
 
 .contact-action-btn:hover {
     background: var(--dark-blue);
+}
+
+.whatsapp-btn {
+    background: var(--whatsapp-green);
+    margin-top: 5px;
+}
+
+.whatsapp-btn:hover {
+    background: #128C7E;
 }
 
 .social-card {
