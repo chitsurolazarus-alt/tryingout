@@ -149,3 +149,10 @@ style.innerHTML = `
     }
 `;
 document.head.appendChild(style);
+
+// WhatsApp tracking (optional)
+document.querySelectorAll('.whatsapp-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+        console.log('WhatsApp button clicked');
+    });
+});
